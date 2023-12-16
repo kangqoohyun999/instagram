@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
+    <head>
+        <link href="style.css" rel="stylesheet">
+    </head>
     <body>
         <div>
             <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"/>
+            <input type="search" value="검색"/>
         </div>
-        <div>
+        <div id="profile">
             <img src="image/profile.jpg" width="50px"/>
             <div>
                 <h2>half_bottle</h2>
@@ -25,18 +28,31 @@
                 </a>
             </p>
         </div>
-        <div>하이라이트가 들어갈 자리</div>
-        <div>
-            <p>
+            <div class="highlight"></div>
+        <div id="stat_bar">
+            <div class="stat">
                 게시물<br/>
+                133
+            </div>
+            <div class="stat">
                 팔로워<br/>
+                408
+            </div>
+            <div class="stat">
                 팔로우<br/>
-                133<br/>
-                408<br/>
                 189
-            </p>
+            </div>
         </div>
         <div>아이콘이 들어갈 자리</div>
-        <div>게시물 썸네일이 들어갈 자리</div>
+        <div class="thumbnail_grid">
+            <img src="image/puppy1.jfif" class="thumbnail"/>
+            <img src="image/puppy2.jfif" class="thumbnail"/>
+            <img src="image/puppy3.jfif" class="thumbnail"/>
+        </div>
+        <div class="thumbnail_grid">
+            <img src="image/puppy4.jfif" class="thumbnail"/>
+            <img src="image/puppy5.jfif" class="thumbnail"/>
+            <img src="image/puppy6.jfif" class="thumbnail"/>
+        </div>
     </body>
 </html>
